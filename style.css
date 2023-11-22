@@ -1,0 +1,76 @@
+.body {
+    background-color: black;
+    height: 100vh;
+}
+
+.home {
+    background-image: url('https://i.pinimg.com/originals/c4/88/a5/c488a5045bf7ac2d08b8bd9342cecf92.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(200, 101, 2);
+}
+
+.carousel-inner img {
+    height: 600px;
+    max-width: 1000px;
+    opacity: 0.8;
+}
+
+@font-face {
+    font-family: 'Vermin Vibes';
+    src: url('path-to-vermin-vibes.woff') format('woff'), /* Modern Browsers */
+         url('path-to-vermin-vibes.ttf') format('truetype'); /* Legacy Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h1 {
+    font-family: 'Vermin Vibes', sans-serif;
+    font-size: 60px !important;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 100, 0.8);
+}
+
+.about {
+    background-image: url('https://wallpapercave.com/wp/wp3857882.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aboutP {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row:not(:last-child) {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+.contact{
+    background-image: url(https://wallpapercave.com/dwp2x/wp4220056.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
