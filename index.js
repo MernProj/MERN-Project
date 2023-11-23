@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const studentRoute = require("./Controller/studentRoute.js");
+const studentRoute = require("./studentRoute.js");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
