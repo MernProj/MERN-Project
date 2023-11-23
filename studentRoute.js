@@ -1,5 +1,5 @@
 const express = require("express");
-const studentSchema = require("../Model/studentSchema");
+const studentSchema = require("../studentSchema");
 const studentRoute = express.Router();
 const mongoose = require("mongoose");
 
